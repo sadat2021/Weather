@@ -71,7 +71,7 @@ function WidgetCard({
         </h3>
         <div className="display-details">
           <img
-            data-testId="icon"
+            data-testid="icon"
             src={
               icon ? `http://openweathermap.org/img/w/${icon}.png` : sunnyCloudy
             }
@@ -79,7 +79,7 @@ function WidgetCard({
             alt="icon"
           />
           <div className="details">
-            <span data-testId="name">{name}</span>
+            <span data-testid="name">{name}</span>
             <span data-testid="temperature">
               {deg !== "0"
                 ? isFahrenheit
@@ -88,7 +88,7 @@ function WidgetCard({
                 : "--"}
               <span>&deg;</span>
             </span>
-            <span data-testId="wind">
+            <span data-testid="wind">
               {displaywindSpeed && (
                 <>
                   <span data-testid="wind-display">Wind </span>{" "}
